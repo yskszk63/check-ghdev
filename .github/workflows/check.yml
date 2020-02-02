@@ -8,4 +8,4 @@ jobs:
     steps:
     - run: ls /dev/input
     - run: sudo apt update && sudo apt install libinput-tools
-    - run: libinput list-devices
+    - run: sudo libinput list-devices
