@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: ls /dev/input
-    - run: sudo apt update && sudo apt install libinput
+    - run: sudo apt update && sudo apt install libinput10
     - run: libinput list-devices
